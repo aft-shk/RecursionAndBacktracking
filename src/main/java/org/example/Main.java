@@ -36,7 +36,7 @@ public class Main {
     }
 
     public static void print1ToN(int start , int end){
-        if(start == end+1)return;;
+        if(start == end+1)return;// it was just a typo,no offense
         System.out.print(start+" ");
         print1ToN(start+1,end);
     }
